@@ -1,0 +1,21 @@
+{
+  "suggest.echodocSupport": true,
+  "suggest.maxCompleteItemCount": 20,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "c",
+    "cpp",
+    "rust",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "python",
+    "go"
+  ],
+  "diagnostic.errorSign": "•",
+  "diagnostic.warningSign": "•",
+  "diagnostic.infoSign": "•",
+  "python.jediEnabled": false,
+  "rust-analyzer.serverPath": "/usr/local/bin/rust-analyzer"
+}
