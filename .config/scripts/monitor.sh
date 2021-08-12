@@ -1,1 +1,1 @@
-wlr-randr --output "DP-2" --pos 1366,0
+wlr-randr --output "DP-4" --pos 1920,0
