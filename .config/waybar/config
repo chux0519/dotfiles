@@ -146,7 +146,7 @@
     "custom/dwlbar": {
         "format": "{}",
         "max-length": 200,
-        "exec": "$HOME/.config/scripts/dwlbar DP-4"
+        "exec": "$HOME/.config/scripts/dwlbar DP-1"
     }
 
 }
