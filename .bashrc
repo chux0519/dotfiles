@@ -13,4 +13,4 @@ PS1='[\u@\h \W]\$ '
 
 export GOPROXY=https://goproxy.cn,direct
 
-export PATH="$PATH:$HOME/go/bin:$HOME/.yarn/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/go/bin:$HOME/.yarn/bin:$HOME/.cargo/bin"

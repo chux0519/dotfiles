@@ -3,15 +3,15 @@
     // Global configuration
     // -------------------------------------------------------------------------
 
-    "layer": "bottom",
+    "layer": "top",
 
-    "position": "bottom",
+    "position": "top",
 
     // If height property would be not present, it'd be calculated dynamically
     "height": 30,
 
     "modules-left": [
-	"custom/dwlbar"
+      "river/tags"
     ],
     "modules-center": [
     ],
@@ -146,7 +146,7 @@
     "custom/dwlbar": {
         "format": "{}",
         "max-length": 200,
-        "exec": "$HOME/.config/scripts/dwlbar DP-1"
+        "exec": "$HOME/repos/dotfiles/scripts/dwlbar DP-1"
     }
 
 }
