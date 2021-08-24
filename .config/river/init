@@ -164,14 +164,12 @@ riverctl csd-filter-add "gedit"
 riverctl default-layout rivertile
 
 
-# Starting programs
-pkill fcitx5
-fcitx5 -d --replace
-
 pkill waybar
-waybar &
+exec waybar &
 
 pkill pegas
-pegas &> /home/yongsheng/.cache/pegas.log &
+exec pegas &> /home/yongsheng/.cache/pegas.log &
+
+exec swaybg -i /home/yongsheng/Pictures/bg.jpg -m fill &
 
 exec rivertile
