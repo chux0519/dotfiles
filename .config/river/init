@@ -15,11 +15,12 @@ riverctl set-repeat 50 300
 
 # Mod+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal $mod+Shift Return spawn 'st -f "Fira Code:size=14"'
+riverctl map normal $mod+Shift A spawn 'screenshot' # a custom script for screenshot
 
 # Mod+Q to close the focused view
 riverctl map normal $mod Q close
 
-riverctl map normal $mod P spawn 'wofi --show=drun --lines=5 --prompt=""'
+riverctl map normal $mod P spawn 'wofi --show=run --lines=5 --prompt=""'
 
 # Mod+E to exit river
 riverctl map normal $mod+Shift E exit
