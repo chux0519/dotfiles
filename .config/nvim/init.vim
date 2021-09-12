@@ -59,9 +59,9 @@ vnoremap <C-j> <Esc>
 inoremap <C-c> <Esc>
 vnoremap <C-c> <Esc>
 " Suspend with Ctrl+f
-inoremap <C-f> :sus<cr>
-vnoremap <C-f> :sus<cr>
-nnoremap <C-f> :sus<cr>
+"inoremap <C-f> :sus<cr>
+"vnoremap <C-f> :sus<cr>
+"nnoremap <C-f> :sus<cr>
 " No arrow keys --- force yourself to use the home row
 nnoremap <up> <nop>
 nnoremap <down> <nop>

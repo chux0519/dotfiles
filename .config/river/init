@@ -17,6 +17,8 @@ riverctl set-repeat 50 300
 riverctl map normal $mod+Shift Return spawn 'st -f "Fira Code:size=14"'
 riverctl map normal $mod+Shift A spawn 'screenshot' # a custom script for screenshot
 
+riverctl map normal $mod+Shift L spawn 'swaylock -i /home/yongsheng/Pictures/wall.png' # a custom script for screenshot
+
 # Mod+Q to close the focused view
 riverctl map normal $mod Q close
 
@@ -164,6 +166,7 @@ riverctl csd-filter-add "gedit"
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
 
+riverctl input 1739:52743:SYNA30AF:00_06CB:CE07_Touchpad tap enabled
 
 pkill waybar
 exec waybar &
@@ -171,6 +174,6 @@ exec waybar &
 pkill pegas
 exec pegas &> /home/yongsheng/.cache/pegas.log &
 
-exec swaybg -i /home/yongsheng/Pictures/bg.jpg -m fill &
+exec swaybg -i /home/yongsheng/Pictures/wall.png -m fill &
 
 exec rivertile

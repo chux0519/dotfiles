@@ -14,3 +14,5 @@ PS1='[\u@\h \W]\$ '
 export GOPROXY=https://goproxy.cn,direct
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/go/bin:$HOME/.yarn/bin:$HOME/.cargo/bin"
+
+export _JAVA_AWT_WM_NONREPARENTING=1
