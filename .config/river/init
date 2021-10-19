@@ -14,8 +14,9 @@ mod="Mod4"
 riverctl set-repeat 50 300
 
 # Mod+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl map normal $mod+Shift Return spawn 'st -f "Fira Code:size=14"'
-riverctl map normal $mod+Shift A spawn 'screenshot' # a custom script for screenshot
+riverctl map normal $mod+Shift Return spawn 'st -f "Fira Code:size=16"'
+# riverctl map normal $mod+Shift A spawn 'screenshot' # a custom script for screenshot
+riverctl map normal $mod+Shift A spawn 'flameshot gui'
 
 riverctl map normal $mod+Shift L spawn 'swaylock -i /home/yongsheng/Pictures/wall.png' # a custom script for screenshot
 
@@ -172,8 +173,15 @@ pkill waybar
 exec waybar &
 
 pkill pegas
-exec pegas &> /home/yongsheng/.cache/pegas.log &
+exec pegas -a ~/.config/pegasocks/pegasocks.acl &> /home/yongsheng/.cache/pegas.log &
 
 exec swaybg -i /home/yongsheng/Pictures/wall.png -m fill &
+
+exec fcitx5 -d &
+
+exec /usr/lib/xdg-desktop-portal -r & 
+exec /usr/lib/xdg-desktop-portal-wlr &
+
+exec flameshot &
 
 exec rivertile

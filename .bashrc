@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias pc='proxychains4'
+alias n='nnn -d'
 alias set_http_proxy='export http_proxy=socks5://127.0.0.1:1080'
 alias set_https_proxy='export https_proxy=socks5://127.0.0.1:1080'
 PS1='[\u@\h \W]\$ '

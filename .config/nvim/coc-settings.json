@@ -11,7 +11,8 @@
     "json",
     "javascriptreact",
     "python",
-    "go"
+    "go",
+    "html"
   ],
   "go.goplsOptions": {
     "completeUnimported": true
