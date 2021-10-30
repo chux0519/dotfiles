@@ -1,0 +1,8 @@
+control + alt + a
+  flameshot gui
+
+shift + alt + Return
+  st -f "Noto Sans Mono:size=12"
+
+shift + alt + f
+  st -f "Noto Sans Mono:size=12" -e 'ranger'
